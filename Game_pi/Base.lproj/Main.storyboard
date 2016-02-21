@@ -52,7 +52,7 @@
         <!--広告表示-->
         <scene sceneID="ubX-kV-2Hi">
             <objects>
-                <viewController id="R0T-eC-CGw" sceneMemberID="viewController">
+                <viewController id="R0T-eC-CGw" customClass="ThirdViewController" customModule="Game_pi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2a3-Jp-9Vg"/>
                         <viewControllerLayoutGuide type="bottom" id="7qS-f6-gW1"/>
@@ -84,7 +84,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="残り　３秒" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I6u-eM-p8S">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I6u-eM-p8S">
                                 <rect key="frame" x="203" y="84" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -103,6 +103,9 @@
                     </view>
                     <navigationItem key="navigationItem" title="広告表示" id="J9b-bd-7K3"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="countdownLabel" destination="I6u-eM-p8S" id="c4f-cF-ZDZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hFD-tQ-6nt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="1957" y="-294"/>
         </scene>
-        <!--View Controller-->
+        <!--Equal View Controller-->
         <scene sceneID="Te4-VZ-rv9">
             <objects>
-                <viewController id="Rur-lM-eO9" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="equal" id="Rur-lM-eO9" customClass="equalViewController" customModule="Game_pi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gVc-bf-pdN"/>
                         <viewControllerLayoutGuide type="bottom" id="bdd-bU-4hJ"/>

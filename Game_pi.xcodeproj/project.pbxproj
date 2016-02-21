@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271A83791C79C66B0054E185 /* equalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271A83781C79C66B0054E185 /* equalViewController.swift */; };
 		2799BF671C743C97009CE171 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2799BF661C743C97009CE171 /* ThirdViewController.swift */; };
 		27D052951C6644A9001F8B6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D052941C6644A9001F8B6D /* AppDelegate.swift */; };
 		27D052971C6644A9001F8B6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D052961C6644A9001F8B6D /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		271A83781C79C66B0054E185 /* equalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = equalViewController.swift; sourceTree = "<group>"; };
 		2799BF661C743C97009CE171 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		27D052911C6644A9001F8B6D /* Game_pi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game_pi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27D052941C6644A9001F8B6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -100,9 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				27D052941C6644A9001F8B6D /* AppDelegate.swift */,
+				2799BF661C743C97009CE171 /* ThirdViewController.swift */,
+				271A83781C79C66B0054E185 /* equalViewController.swift */,
 				27D052961C6644A9001F8B6D /* ViewController.swift */,
 				27D052981C6644A9001F8B6D /* Main.storyboard */,
-				2799BF661C743C97009CE171 /* ThirdViewController.swift */,
 				27D0529B1C6644A9001F8B6D /* Assets.xcassets */,
 				27D0529D1C6644A9001F8B6D /* LaunchScreen.storyboard */,
 				27D052A01C6644A9001F8B6D /* Info.plist */,
@@ -263,6 +266,7 @@
 				27D052971C6644A9001F8B6D /* ViewController.swift in Sources */,
 				2799BF671C743C97009CE171 /* ThirdViewController.swift in Sources */,
 				27D052951C6644A9001F8B6D /* AppDelegate.swift in Sources */,
+				271A83791C79C66B0054E185 /* equalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
